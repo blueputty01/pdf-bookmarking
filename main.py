@@ -1,6 +1,6 @@
 from PyPDF2 import PdfFileReader, PdfFileWriter
 
-OFFSET = 38
+OFFSET = 7
 
 
 def get_bookmark_data():
@@ -38,14 +38,14 @@ def get_bookmark_data():
 def add_bookmarks(bookmarks, parent=None):
     for bookmark_to_create in bookmarks:
         bookmark = writer.addBookmark(
-            bookmark_to_create['title'], bookmark_to_create['page'] + OFFSET - 1, parent=parent)
+            bookmark_to_create['title'], bookmark_to_create['page'] + OFFSET - 2, parent=parent)
         add_bookmarks(bookmark_to_create['children'], parent=bookmark)
 
 
 if __name__ == '__main__':
     b = get_bookmark_data()
     print('Finished reading bookmarks')
-    reader = PdfFileReader("AMSCO 2016.pdf")  # open input
+    reader = PdfFileReader("AMSCO 2016 Answer Key.pdf")  # open input
     writer = PdfFileWriter()  # open output
 
     for page in reader.pages:
