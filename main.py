@@ -52,7 +52,7 @@ if __name__ == '__main__':
         writer.addPage(page)
 
     writer.add_metadata({
-        '/Title': 'AMSCO 2016',
+        '/Title': 'KEY AMSCO 2016',
         '/Author': 'John Newman and John Schmalbach',
         '/Subject': 'AP United States History',
         '/Keywords': 'AMSCO AP United States History 2016',
