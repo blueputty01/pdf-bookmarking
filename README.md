@@ -4,12 +4,22 @@ This is a tool to automatically generate bookmarks for PDF files given a formatt
 
 ## Intended Usage ✍️
 
-Designed to add bookmarks to an AP US History supplemental reading, but can be used for any PDF file with customization
+Designed to add bookmarks given a nested lit of bookmarks in the following format:
 
-Sample input file is included in the repository (in.txt). The input file is automatically nested based on the configuration of
-the specific book this code was built to target.
+```text
+Chapter 1
+    Section 1.1
+    Section 1.2
+Chapter 2
+    Section 2.1
+        Subsection 2.1.1
+        Subsection 2.1.2
+    Section 2.2
+```
+
+Each indentation level must consist of 4 spaces. The tool will automatically generate bookmarks for each line, and will nest them appropriately.
 
 ## Technologies Used ⚙
 
-* Python 3.7
-* PyPDF2
+- Python
+- PyPDF2

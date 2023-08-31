@@ -1,66 +1,105 @@
-from PyPDF2 import PdfFileReader, PdfFileWriter
+from PyPDF2 import PdfReader, PdfWriter
 
-OFFSET = 38
+# page marked 1
+OFFSET = 22
+INPUT_FILE = 'Social Psychology.pdf'
+TITLE = 'Social Psychology 8th Edition'
+AUTHOR = 'John D. DeLamater, Daniel J. Myers, and Jessica L. Collett'
 
+with open('ignore.txt', 'r', encoding='utf-8') as f:
+    ignore = f.read().splitlines()
+
+
+def case(title):
+    arr = title.lower().split(' ')
+    return ' '.join([word.capitalize() for word in arr if word not in ignore])
+    
 
 def get_bookmark_data():
-    bookmarks = []
     with open('in.txt', 'r', encoding='utf-8') as f:
         lines = f.read().splitlines()
-        for line in lines:
+
+    
+    line_idx = 0
+
+    def get_indent_level(line):
+        indent_level = 0
+        for char in line:
+            if char == ' ':
+                indent_level += 1
+            else:
+                break
+
+        indent_level = indent_level // 4
+        return indent_level
+    
+    def parse_line(line):
+        line = line.strip()
+        page_number = line.split(' ')[-1]
+        title = line[:-len(page_number) - 1].strip()
+        title = case(title)
+
+        return title, int(page_number)
+
+
+    def parse_bookmarks(level=0):
+        bookmarks = [] 
+
+        nonlocal line_idx
+
+        while line_idx < len(lines):
+            line = lines[line_idx]
+
             if line == '':
+                line_idx += 1
                 continue
 
-            top_level = False
-            if line.startswith('$ '):
-                line = line.replace('$ ', '')
-                top_level = True
+            indent_level = get_indent_level(line)
 
-            page_number = line.split(' ')[-1]
-            title = line[:-len(page_number) - 1]
-
-            if title.startswith('PERIOD') or top_level:
-                parent = bookmarks
-            else:
-                if title.startswith('Chapter') or title.startswith('Period'):
-                    parent = bookmarks[-1]['children']
-                else:
-                    parent = bookmarks[-1]['children'][-1]['children']
-
-            parent.append({
+            title, page_number = parse_line(line)
+            
+            bookmark = {
                 'title': title,
-                'page': int(page_number),
+                'page': page_number,
                 'children': []
-            })
-    return bookmarks
+            }
+
+            # hacky nesting logic
+            if indent_level == level:
+                bookmarks.append(bookmark)
+            elif indent_level > level:
+                children = parse_bookmarks(level=indent_level)
+                bookmarks[-1]['children'].extend(children)
+            elif indent_level < level:
+                line_idx -= 1
+                return bookmarks
+        
+            line_idx += 1
+
+        return bookmarks
+    
+    return parse_bookmarks()
 
 
 def add_bookmarks(bookmarks, parent=None):
     for bookmark_to_create in bookmarks:
-        bookmark = writer.addBookmark(
-            bookmark_to_create['title'], bookmark_to_create['page'] + OFFSET - 1, parent=parent)
+        bookmark = writer.add_outline_item(
+            bookmark_to_create['title'], bookmark_to_create['page'] + OFFSET - 2, parent=parent)
         add_bookmarks(bookmark_to_create['children'], parent=bookmark)
 
 
 if __name__ == '__main__':
     b = get_bookmark_data()
     print('Finished reading bookmarks')
-    reader = PdfFileReader("AMSCO 2016.pdf")  # open input
-    writer = PdfFileWriter()  # open output
+    reader = PdfReader(INPUT_FILE)  # open input
+    writer = PdfWriter()  # open output
 
     for page in reader.pages:
-        writer.addPage(page)
+        writer.add_page(page)
 
     writer.add_metadata({
-        '/Title': 'AMSCO 2016',
-        '/Author': 'John Newman and John Schmalbach',
-        '/Subject': 'AP United States History',
-        '/Keywords': 'AMSCO AP United States History 2016',
-        '/Creator': 'AMSCO',
-        '/Producer': 'AMSCO School Publications, Inc.',
-        '/CreationDate': 'D:20161001000000Z',
-        '/ModDate': 'D:20161001000000Z',
-        '/Trapped': '/False'
+        '/Title': TITLE,
+        '/Author': AUTHOR,
     })
 
     print('Finished copying pages')
