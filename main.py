@@ -1,4 +1,4 @@
-from PyPDF2 import PdfReader, PdfWriter
+from pypdf import PdfReader, PdfWriter
 
 # page marked 1
 OFFSET = 22
@@ -81,11 +81,11 @@ def get_bookmark_data():
     return parse_bookmarks()
 
 
-def add_bookmarks(bookmarks, parent=None):
+def add_bookmarks(writer, bookmarks, parent=None):
     for bookmark_to_create in bookmarks:
         bookmark = writer.add_outline_item(
             bookmark_to_create['title'], bookmark_to_create['page'] + OFFSET - 2, parent=parent)
-        add_bookmarks(bookmark_to_create['children'], parent=bookmark)
+        add_bookmarks(writer, bookmark_to_create['children'], parent=bookmark)
 
 
 if __name__ == '__main__':
@@ -104,7 +104,7 @@ if __name__ == '__main__':
 
     print('Finished copying pages')
 
-    add_bookmarks(b)
+    add_bookmarks(writer, b)
     print('Finished adding bookmarks')
 
     with open("result.pdf", "wb") as fp:  # creating result pdf JCT
