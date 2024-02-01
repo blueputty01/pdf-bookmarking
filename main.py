@@ -1,10 +1,11 @@
 from pypdf import PdfReader, PdfWriter
 
 # page marked 1
-OFFSET = 22
-INPUT_FILE = 'Social Psychology.pdf'
-TITLE = 'Social Psychology 8th Edition'
-AUTHOR = 'John D. DeLamater, Daniel J. Myers, and Jessica L. Collett'
+OFFSET = 15
+INPUT_FILE = 'The C Programming Language 2nd.pdf'
+TITLE = 'The C Programming Language 2nd Edition'
+AUTHOR = 'Brian W. Kernighan and Dennis M. Ritchie'
+CASE_TITLE = False
 
 with open('ignore.txt', 'r', encoding='utf-8') as f:
     ignore = f.read().splitlines()
@@ -18,7 +19,6 @@ def case(title):
 def get_bookmark_data():
     with open('in.txt', 'r', encoding='utf-8') as f:
         lines = f.read().splitlines()
-
     
     line_idx = 0
 
@@ -37,7 +37,8 @@ def get_bookmark_data():
         line = line.strip()
         page_number = line.split(' ')[-1]
         title = line[:-len(page_number) - 1].strip()
-        title = case(title)
+        if CASE_TITLE:
+            title = case(title)
 
         return title, int(page_number)
 

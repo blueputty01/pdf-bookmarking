@@ -1,417 +1,117 @@
-Brief Table of Contents -14
-Expanded Table of Contents -12
-Preface -5
-1 Introduction to Social Psychology 1
-    Introduction 2
-    What is Social Psychology? 3
-        A formal Definition 3
-        Core concerns of Social Psychology 3
-        Sociology, Psychology, or Both? 6
-    Theoretical Perspectives in Sociological Social Psychology 7
-        Symbolic Interactionism 9
-        Group Processes 12
-        Social Structure and Personality 16
-        Cognitive Perspectives 17
-        Evolutionary Theory 22
-        Conclusion 25
-    Summary 26
-    List of Key Terms and Concepts 27
-    Critical Thinking Skill: An Introduction to Critical Thinking 27
-2 Research Methods in Social Psychology 31
-    Introduction 32
-        Questions about Research Methods 32
-    Characteristics of Empirical Research 32
-        Objectives of Research 33
-        Research hypotheses 33
-        Validity of Findings 34
-    Research Methods 35
-        Surveys 35
-        Field Studies and Naturalistic Observation 45
-        Archival Research and Content Analysis 47
-        Experiments 49
-        Comparison of Research Methods 54
-        Meta-analysis 55
-    Research in Diverse Populations 56
-    Ethical issues in Social Psychological Research 58
-        Potential Sources of Harm 58
-        Institutional Safeguards 59
-        Potential Benefits 61
-    Summary 62
-    List of Key Terms and Concepts 62
-    Critical Thinking Skill: Understanding the Importance of Sampling 63
-3 Socialization Through the Life Course 65
-    Introduction 66
-    Perspectives on Socialization 67
-        The Developmental Perspective 67
-        The Social Learning Perspective 68
-        The Interpretive Perspective 69
-        The impact of Social Structure 70
-    Agents of Childhood Socialization 70
-        Family 71
-        Peers 77
-        School 79
-        Mass Media 80
-    Processes of Socialization 81
-        Instrumental Conditioning 81
-        Observational Learning 85
-        Internalization 86
-    Outcomes of Socialization 87
-        Gender Role 87
-        Linguistic and Cognitive  90
-        Moral Development 93
-        Work Orientations 97
-    The Life Course 98
-        components of the life course 99
-        influences on life course Progression 102
-        historical Variations 107
-    Summary 112
-    List of Key Terms and Concepts 114
-    Critical Thinking Skill: Understanding the Difference Between Truth and Validity 114
-4 Self and Self-PreSentatIon 117
-    introduction 118
-    the nature and genesis of Self 120
-        the Self as Source and object of action 120
-        Self-Differentiation 120
-        role taking 122
-        the Social origins of Self 122
-    identities: the Self We Know 125
-        role identities 125
-        Social identities 126
-        research on Self-concept formation 127
-        the Situated Self 130
-    identities: the Self We enact 130
-        identities and Behavior 131
-        choosing an identity to enact 133
-        identities as Sources of consistency 135
-        Self-awareness and Self Discrepancies 136
-    Self-esteem 138
-        assessment of Self-esteem 138
-        Sources of Self-esteem 140
-        Self-esteem and Behavior 142
-        Protecting Self-esteem 142
-    Self-Presentation 144
-        Self-Presentation in everyday Life 147
-        Definition of the Situation 147
-        Self-Disclosure 148
-    tactical impression Management 149
-        managing appearances 150
-        ingratiation 152
-        aligning actions 156
-        altercasting 157
-        impression management online 158
-    detecting deceptive impression Management 160
-        Ulterior motives 160
-        nonverbal cues of Deception 161
-    ineffective Self-Presentation and Spoiled identities 164
-        embarrassment and Saving face 164
-        cooling-out and identity Degradation 167
-        Stigma 168
-    Summary 172
-    List of Key Terms and Concepts 174
-    Critical Thinking Skill: Defending Against Everyday Persuasive Techniques 174 
-
-5 eMotIonS 177
-    introduction 178
-    defining emotions 179
-    Classical ideas about the origins of emotion 180
-    Universal emotions and Facial expressions 181
-        facial expressions of emotions 181
-    Cultural differences in Basic emotions and emotional display 184
-        emotional Display 185
-    the Social Psychology of emotions 189
-        cognitive labeling theory 189
-        emotion Work 192
-        Social emotions 194
-    Summary 201
-    List of Key Terms and Concepts 202
-    Critical Thinking Skill: Effortful Consideration of Ideas 202
-6 SocIal PercePtIon and cognItIon 205
-    introduction 206
-    Schemas 208
-        types of Schemas 209
-        Schematic Processing 210
-    Person Schemas and group Stereotypes 214
-        Person Schemas 214
-        Group Stereotypes 216
-    impression Formation 223
-        trait centrality 223
-        first impressions 224
-        impressions as Self-fulfilling Prophecies 225
-        heuristics 226
-    Attribution theory 227
-        Dispositional versus Situational attributions 228
-        inferring Dispositions from acts 229
-        covariation model of attribution 231
-    Bias and error in Attribution 233
-        overattribution to Dispositions 233
-        focus-of-attention Bias 234
-        actor-observer Difference 235
-        motivational Biases 237
-        attributions for Success and failure 238
-    Summary 239
-    List of Key Terms and Concepts 240
-    Critical Thinking Skill: Understanding Stereotyping 241
-7 attItudeS 243
-    introduction 244
-    the nature of Attitudes 244
-        the components of an attitude 244
-        attitude formation 245
-        the functions of attitudes 248
-    Attitude organization 249
-        attitude Structure 249
-    Cognitive Consistency 251
-        Balance theory 252
-        theory of cognitive Dissonance 254
-    the Relationship Between Attitudes and Behavior 258
-        Do attitudes Predict Behavior? 258
-        accessibility and activation of the attitude 259
-        characteristics of the attitude 260
-        attitude-Behavior correspondence 262
-        Situational constraints 264
-        reference Groups 264
-    the Reasoned Action Model 265
-    Summary 266
-    List of Key Terms and Concepts 268
-    Critical Thinking Skill: Analyzing Attitudes 268
-8 SyMbolIc coMMunIcatIon and language 271
-    introduction 272
-    Language and Verbal Communication 273
-        linguistic communication 273
-        the encoder-Decoder model 276
-        the intentionalist model 277
-        the Perspective-taking model 280
-    nonverbal Communication 282
-        types of nonverbal communication 282
-        computer-mediated communication 285
-        What’s in a face? 286
-        combining nonverbal and Verbal communication 286
-    Social Structure and Communications 288
-        Gender and communication 289
-        Social Stratification and Speech Style 291
-        communicating Status and intimacy 293
-    normative distances for interaction 299
-        normative Distances 299
-    Conversational Analysis 302
-        initiating conversations 302
-        regulating turn taking 304
-        feedback and coordination 305
-    Summary 306
-    List of Key Terms and Concepts 307
-    Critical Thinking Skill: Understanding the Importance of Clear Communication 308
-9 SocIal Influence and PerSuaSIon 311
-    introduction 312
-        forms of Social influence 312
-    Attitude Change via Persuasion 313
-        communication-Persuasion Paradigm 314
-        the Source 315
-        the message 318
-        the target 322
-    Compliance with threats and Promises 325
-        effectiveness of threats and Promises 328
-    obedience to Authority 331
-        experimental Study of obedience 333
-        factors affecting obedience to authority 336
-    Resisting influence and Persuasion 337
-        inoculation 337
-        forewarning 338
-        reactance 338
-    Summary 339
-    List of Key Terms and Concepts 340
-    Critical Thinking Skill: Evaluating Persuasive Messages 340
-10 altruISM and ProSocIal behavIor 343
-    introduction 344
-    Motivation to help 345
-        egoism 345
-        altruism and empathetic concern 346
-        evolutionary Perspectives 348
-    Characteristics of the needy that Foster helping 350
-        acquaintanceship and liking 350
-        Similarity 350
-        Deservingness 352
-    normative Factors in helping 353
-        norms of responsibility and reciprocity 354
-        Personal norms 355
-        Gender norms 356
-    Situational influences 356
-        modeling 357
-        mood 357
-        costs 358
-    Bystander intervention in emergency Situations 359
-        the Decision to intervene 360
-        the Bystander effect 361
-    Seeking and Receiving help 363
-    other Forms of Prosocial Behavior 364
-    Summary 365
-    List of Key Terms and Concepts 366
-    Critical Thinking Skill: Creative Thinking 366
-11 aggreSSIon 369
-    introduction 370
-        What is aggression? 370
-    Aggression and the Motivation to harm 371
-        aggression as instinct 371
-        frustration-aggression hypothesis 372
-        aversive emotional arousal 374
-        Social learning and aggression 375
-    Characteristics of targets that influence Aggression 376
-        Gender and race 376
-        attribution of intention 377
-        retaliatory capacity 379
-    Situational impacts on Aggression 379
-        Potential rewards 379
-        modeling 380
-        norms 381
-        Stress 382
-        aggressive cues 383
-    Reducing Aggressive Behavior 384
-        reducing frustration 384
-        Punishment 385
-        nonaggressive models 385
-        catharsis 385
-    Aggression in Society 386
-        Sexual assault 386
-        Pornography and Violence 390
-        media Violence and aggression 392
-    Summary 395
-    List of Key Terms and Concepts 396
-    Critical Thinking Skill: Applying Scientific Research to Policy Decisions 396
-12 InterPerSonal attractIon and relatIonShIPS 399
-    introduction 400
-    Who is Available? 400
-        routine activities 401
-        Proximity 401
-        familiarity 403
-    Who is desirable? 404
-        Social norms 404
-        Physical attractiveness 405
-        exchange Processes 408
-    the determinants of Liking 412
-        Similarity 412
-        Shared activities 414
-        reciprocal liking 415
-    the growth of Relationships 416
-        Self-Disclosure 416
-        trust 419
-        interdependence 421
-    Love and Loving 422
-        liking versus loving 422
-        Passionate love 423
-        the romantic love ideal 424
-        love as a Story 426
-    Breaking Up 428
-        Progress? chaos? 428
-        Unequal outcomes and instability 428
-        Differential commitment and Dissolution 430
-        responses to Dissatisfaction 432
-    Summary 434
-    List of Key Terms and Concepts 436
-    Critical Thinking Skill: (Relationship) Decision Making and Problem Solving 436
-13 underStandIng grouPS 439
-    introduction 440
-    What is a Group? 440
-    group Cohesion 441
-        the nature of Group cohesion 442
-        Sources and consequences of cohesion 443
-    group goals 444
-        Group Goals and individual Goals 445
-    group norms 445
-        functions of norms 445
-        conformity and influence 446
-        increasing conformity 450
-    intergroup Conflict 452
-        effects of intergroup conflict on WithinGroup Processes 453
-    Sources of intergroup Conflict 454
-        realistic Group conflict 455
-        Social identity 456
-        aversive events 457
-    Persistence of intergroup Conflict 458
-        out-Group homogeneity 458
-        Group Stereotypes and images 458
-        Ultimate attribution error 459
-        Biased evaluation of Group Preferences 459
-    Resolving intergroup Conflict 460
-        Superordinate Goals 460
-        intergroup contact 461
-    Summary 464
-    List of Key Terms and Concepts 466
-    Critical Thinking Skill: Promoting Higher Order Cognitive Skills 466
-14 grouP ProceSSeS 469
-    introduction 470
-    the Systematic Study of groups 471
-    Status and expectations 474
-        Status characteristics 475
-        Status Generalization 476
-        overcoming Status Generalization 479
-        Status construction and Status Value 480
-    group decision Making 481
-        Groupthink 481
-        risky Shift, cautious Shift, and Group Polarization 484
-    Social exchange 485
-        Power and Dependence 486
-        commitment and trust 488
-        forms of exchange 489
-        contemporary exchange theories 490
-    equity and Justice 490
-        Distributive Justice Principles 491
-        responses to inequity 494
-        Procedural Justice 495
-    Summary 496
-    List of Key Terms and Concepts 497
-    Critical Thinking Skill: Understanding Theory as a Bridge 498
-15 SocIal Structure and PerSonalIty 501
-    introduction 502
-    Status Attainment 503
-        occupational Status 503
-        intergenerational mobility 504
-    individual Values 512
-        occupational role 514
-        education 515
-    Social influences on health 516
-        Physical health 516
-        mental health 522
-    Alienation 533
-        Self-estrangement 533
-        Powerlessness 535
-    Summary 537
-    List of Key Terms and Concepts 538
-    Critical Thinking Skill: Thinking as Hypothesis Testing 538
-16 devIant behavIor and SocIal reactIon 541
-    introduction 542
-    the Violation of norms 542
-        norms 543
-        anomie theory 543
-        control theory 547
-        Differential association theory 550
-        routine activities Perspective 552
-    Reactions to norm Violations 555
-        reactions to rule Breaking 556
-        Determinants of the reaction 557
-        consequences of labeling 560
-    Labeling and Secondary deviance 561
-        Societal reaction 562
-        Secondary Deviance 564
-    Formal Social Controls 565
-        formal labeling and the creation of Deviance 566
-        long-term effects of formal labeling 573
-    Summary 575
-    List of Key Terms and Concepts 576
-    Critical Thinking Skill: Applying Stigmatizing Labels Critically 577
-17 collectIve behavIor and SocIal MoveMentS 579
-    introduction 580
-    Collective Behavior 581
-        crowds 581
-        Gatherings 587
-        Underlying causes of collective Behavior 589
-        Precipitating incidents 593
-        empirical Studies of riots 593
-    Social Movements 599
-        Preconditions 599
-        ideology and framing 600
-        recruitment 601
-        mobilization 603
-        conservative movements in the United States 604
-    Summary 608
-    List of Key Terms and Concepts 608
-    Critical Thinking Skill: Understanding the Difference Between Anecdotal and Scientific Evidence 608
-Glossary 611
-references 625
-index 703
+Contents -7
+Preface -3
+Preface to the First Edition -1
+Introduction 1
+Chapter 1. A Tutorial Introduction 5
+    1.1 Getting Started 5
+    1.2 Variables and Arithmetic Expressions 8
+    1.3 The For Statement 13
+    1.4 Symbolic Constants 14
+    1.5 Character Input and Output 15
+    1.6 Arrays 22
+    1.7 Functions 24
+    1.8 Arguments-Call by Value 27
+    1.9 Character Arrays 28
+    1.10 External Variables and Scope 31
+Chapter 2. Types, Operators, and Expressions 35
+    2.1 Variable Names 35
+    2.2 Data Types and Sizes 36
+    2.3 Constants 37
+    2.4 Declarations 40
+    2.5 Arithmetic Operators 41
+    2.6 Relational and Logical Operators 41
+    2.7 Type Conversions 42
+    2.8 Increment and Decrement Operators 46
+    2.9 Bitwise Operators 48
+    2.10 Assignment Operators and Expressions 50
+    2.11 Conditional Expressions 51
+    2.12 Precedence and Order of Evaluation 52
+Chapter 3. Control Flow 55
+    3.1 Statements and Blocks 55
+    3.2 If-Else 55
+    3.3 Else-If 57
+    3.4 Switch 58
+    3.5 Loops-While and For 60
+    3.6 Loops-Do-while 63
+    3.7 Break and Continue 64
+    3.8 Goto and Labels 65
+Chapter 4. Functions and Program Structure 67
+    4.1 Basics of Functions 67
+    4.2 Functions Returning Non-integers 71
+    4.3 External Variables 73
+    4.4 Scope Rules 80
+    4.5 Header Files 81
+    4.6 Static Variables 83
+    4.7 Register Variables 83
+    4.8 Block Structure 84
+    4.9 Initialization 85
+    4.10 Recursion 86
+    4.11 The C Preprocessor 88
+Chapter 5. Pointers and Arrays 93
+    5.1 Pointers and Addresses 93
+    5.2 Pointers and Function Arguments 95
+    5.3 Pointers and Arrays 97
+    5.4 Address Arithmetic 100
+    5.5 Character Pointers and Functions 104
+    5.6 Pointer Arrays; Pointers to Pointers 107
+    5.7 Multi-dimensional Arrays 110
+    5.8 Initialization of Pointer Arrays 113
+    5.9 Pointers vs. Multi-dimensional Arrays 113
+    5.10 Command-line Arguments 114
+    5.11 Pointers to Functions 118
+    5.12 Complicated Declarations 122
+Chapter 6. Structures 127
+    6.1 Basics of Structures 127
+    6.2 Structures and Functions 129
+    6.3 Arrays of Structures 132
+    6.4 Pointers to Structures 136
+    6.5 Self-referential Structures 139
+    6.6 Table Lookup 143
+    6.7 Typedef 146
+    6.8 Unions 147
+    6.9 Bit-fields 149
+Chapter 7. Input and Output 151
+    7.1 Standard Input and Output 151
+    7.2 Formatted Output-Printf 153
+    7.3 Variable-length Argument Lists 155
+    7.4 Formatted lnput-Scanf 157
+    7.5 File Access 160
+    7.6 Error Handling-Stderr and Exit 163
+    7.7 Line Input and Output 164
+    7.8 Miscellaneous Functions 166
+ Chapter 8. The UNIX System Interface 169
+    8.1 File Descriptors 169
+    8.2 Low Level 1/O-Read and Write 170
+    8.3 Open, Creat, Close, Unlink 172
+    8.4 Random Access-Lseek 174
+    8.5 Example-An Implementation of Fopen and Getc 175
+    8.6 Example-Listing Directories 179
+    8.7 Example-A Storage Allocator 185
+Appendix A. Reference Manual 191
+    A1 Introduction 191
+    A2 Lexical Conventions 191
+    A3 Syntax Notation 194
+    A4 Meaning of Identifiers 195
+    AS Objects and Lvalues 197
+    A6 Conversions 197
+    A7 Expressions 200
+    AS Declarations 210
+    A9 Statements 222
+    A10 External Declarations 225
+    A11 Scope and Linkage 227
+    A12 Preprocessing 228
+    Al3 Grammar 234
+Appendix B. Standard Library 241
+    B1 Input and Output: <stdio.h> 241
+    B2 Character Class Tests: <ctype.h> 248
+    B3 String Functions: <string.h> 249
+    B4 Mathematical Functions: <math.h> 250
+    B5 Utility Functions: <stdlib.h> 251
+    B6 Diagnostics: <assert.h> 253
+    B7 Variable Argument Lists: <stdarg.h> 254
+    B8 Non-local Jumps: <setjmp.h> 254
+    B9 Signals: <signal.h> 255
+    B10 Date and Time Functions: <time.h> 255
+    B11 Implementation-defined Limits: <limits.h> and <float.h> 257
+Appendix C. Summary of Changes 259
+Index 263
