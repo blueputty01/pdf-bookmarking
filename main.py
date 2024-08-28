@@ -1,10 +1,10 @@
 from pypdf import PdfReader, PdfWriter
 
 # page marked 1
-OFFSET = 15
-INPUT_FILE = 'The C Programming Language 2nd.pdf'
-TITLE = 'The C Programming Language 2nd Edition'
-AUTHOR = 'Brian W. Kernighan and Dennis M. Ritchie'
+OFFSET = 16
+INPUT_FILE = ""
+TITLE = "Calculus With Concepts in Calculus"
+AUTHOR = ""
 CASE_TITLE = False
 
 with open('ignore.txt', 'r', encoding='utf-8') as f:
@@ -14,7 +14,7 @@ with open('ignore.txt', 'r', encoding='utf-8') as f:
 def case(title):
     arr = title.lower().split(' ')
     return ' '.join([word.capitalize() for word in arr if word not in ignore])
-    
+
 
 def get_bookmark_data():
     with open('in.txt', 'r', encoding='utf-8') as f:
