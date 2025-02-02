@@ -1,11 +1,12 @@
 from pypdf import PdfReader, PdfWriter
 
 # page marked 1
-OFFSET = 17
+OFFSET = 20
 INPUT_FILE = "in.pdf"
-TITLE = "Calculus With Concepts in Calculus"
-AUTHOR = ""
+TITLE = "Advanced Calculus"
+AUTHOR = "Patrick M. Fitzpatrick"
 CASE_TITLE = False
+SPACES_PER_INDENT = 2
 
 with open("ignore.txt", "r", encoding="utf-8") as f:
     ignore = f.read().splitlines()
@@ -30,7 +31,7 @@ def get_bookmark_data():
             else:
                 break
 
-        indent_level = indent_level // 4
+        indent_level = indent_level // SPACES_PER_INDENT
         return indent_level
 
     def parse_line(line):
