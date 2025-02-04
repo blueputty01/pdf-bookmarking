@@ -17,7 +17,13 @@ Chapter 2
     Section 2.2
 ```
 
-Each indentation level must consist of 4 spaces. The tool will automatically generate bookmarks for each line, and will nest them appropriately.
+```bash
+python main.py
+```
+
+Each indentation level must be denoted with leading group(s) of 2 spaces. This is configurable in the script.
+
+The tool will automatically generate bookmarks for each line, and will nest them appropriately.
 
 ## Technologies Used ⚙
 
