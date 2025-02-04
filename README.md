@@ -2,7 +2,7 @@
 
 This is a tool to automatically generate bookmarks for PDF files given a formatted list of bookmarks in plain text.
 
-## Intended Usage ✍️
+## Usage instructions
 
 Designed to add bookmarks given a nested lit of bookmarks in the following format:
 
@@ -25,7 +25,6 @@ Each indentation level must be denoted with leading group(s) of 2 spaces. This i
 
 The tool will automatically generate bookmarks for each line, and will nest them appropriately.
 
-## Technologies Used ⚙
+## Other
 
-- Python
-- PyPDF2
+This repo also contains nice utility tools like page extraction and OCR.
