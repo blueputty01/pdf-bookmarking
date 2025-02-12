@@ -1,10 +1,10 @@
 from pypdf import PdfReader, PdfWriter
 
 # page marked 1
-OFFSET = 20
+OFFSET = 13
 INPUT_FILE = "in.pdf"
-TITLE = "Advanced Calculus"
-AUTHOR = "Patrick M. Fitzpatrick"
+TITLE = "Differential Equations with MATLAB"
+AUTHOR = "Brian R. Hunt & Ronald L. Lipsman & John E. Osborn & Jonathan M. Rosenberg"
 CASE_TITLE = False
 SPACES_PER_INDENT = 2
 
@@ -41,7 +41,12 @@ def get_bookmark_data():
         if CASE_TITLE:
             title = case(title)
 
-        return title, int(page_number)
+        try:
+            page = int(page_number)
+        except ValueError as e:
+            print(f"Invalid end-of-line page number for {line}")
+            raise e
+        return title, page
 
     def parse_bookmarks(level=0):
         bookmarks = []
